@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+<link rel="stylesheet" href="style2.css">
+<title>MSB Login</title>
+<script>
+    function validateForm(){
+        let userName = document.firstForm.txtName.value;
+        let namePattern = /[a-zA-Z]{3}/;
+        let nameResult = userName.match(namePattern);
+        if(nameResult == null){
+            alert("Please enter correct Username");
+        }
+                
+        else{
+            let userPassword = document.firstForm.txtPassword.value;
+            let passwordPattern = /[a-zA-Z0-9]{6}/;
+            let passwordResult = userPassword.match(passwordPattern);
+                if(passwordResult == null){
+                    alert("Please enter atleast six characters in the password");
+                }
+                else{
+                    window.open("home.html"); 
+                }
+            }
+    }             
+</script>
+</head>
+<body>
+    <header class="showcase">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <div class="showcase-content">
+                <div class="formm">
+                    <form name="firstForm">
+                        <h1>Log In</h1>
+                        <div class="info">
+                            <input type="text" placeholder="Username" name="txtName" class="email"><br>
+                            <input type="password" placeholder="Password" name="txtPassword" class = "email">
+                        </div>
+                        <div class="btn">
+                            <button class="btn-primary" onclick="validateForm()">Log In</button>
+                        </div>
+
+                    </form>
+                </div>
+           </div> 
+    </header>
+</body>
+</html>

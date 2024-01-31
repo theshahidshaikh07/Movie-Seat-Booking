@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: rgb(23, 23, 23);
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+header{
+	position: relative;
+	width: 80%;
+	height: 90%;
+	/* border: 1px solid #fff; */
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 10px 25px -8px #000;
+}
+
+header::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+	opacity: .9; 
+	z-index: -1;
+}
+
+header::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #000);
+	z-index: -1;
+}
+header video {
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top:-54%;
+	z-index: -1;
+
+}
+header nav {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 50px;
+}
+
+header nav .logo_ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+header nav .logo_ul img{
+	width: 90px;
+}
+
+header nav .logo_ul ul{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+
+header nav .logo_ul li{
+	padding: 3px 60px;
+	text-decoration: none;
+}
+
+header nav .logo_ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+	transition: .3s linear;
+}
+header nav .logo_ul li a:hover {
+	color:red;
+}
+
+header nav .search_user{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header nav .search_user input{
+	padding: 3px 10px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background: rgb(255, 255, 255, .3);
+	color:#fff;
+	margin-right: 10px;
+	
+}
+header nav .search_user input::placeholder{
+	color:#fff;
+}
+header nav .search_user img{
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+}
+header nav .search_user .search{
+	position:absolute;
+	width: 320px;
+	height: 320px;
+	border: 1px solid #fff;
+	right: 0;
+	top: 40px;
+	z-index: 99999;
+}
+
+header nav .search_user .search .card{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	display:flex;
+	align-items: center;
+	margin-bottom: 5px;
+	padding: 3px 0px;
+	text-decoration: none;
+	
+}
+header nav .search_user .search .card::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(255, 255, 255, .1) ;
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	z-index: -1;
+}
+header nav .search_user .search .card img{
+	width: 28px;
+	height: 90%;
+	border-radius: 2px;
+	margin-left: 8px ;
+
+}
+header nav .search_user .search .card .cont{
+	margin-left: 10px;
+	color: #fff;
+
+}
+header nav .search_user .search .card .cont h3{
+	font-size: 15px;
+	line-height: 25px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 250px;
+}
+header nav .search_user .search .card .cont p{
+	font-size: 10px;
+	color: rgb(255, 255, 255, .8)
+}
+header nav .search_user .search .card .cont span{
+	background:yellow;
+	color:rgb(0, 0, 0);
+	padding: 0px 3px;
+	margin: 0px 5px 0px 10px;
+	font-weight: 500;
+
+}
+header .content{
+	position: relative	;
+	color:#fff;
+	
+	padding-left: 50px;
+
+}
+
+header .content h1{
+	font-size: 40px;
+}
+
+header .content p{
+	font-size: 14px;
+	width: 350px;
+	word-break: break-all;
+}
+header .content .details{
+	display: flex;
+	align-items: center	;
+	margin-top: 10px;
+}
+header .content .details h6{
+	color: #fff;
+	font-size: 10px;
+	margin-right: 10px;
+	
+}
+header .content .details h5{
+	color: lawngreen;
+	font-size: 13px;
+	margin-right: 10px;
+}
+header .content .details h4{
+	color: #fff;
+	font-size: 13px;
+	margin-right: 10px;
+}
+header .content .details h3{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+}
+header .content .details h3 span{
+	background: yellow;
+	color: #000;
+	padding: 0px 3px;
+	margin: 0px 5px 0px 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+header .content .details h3 i{
+	margin-right: 5px;
+}
+
+header section{
+	position: absolute;
+	width: 100%;
+	height: 38%;
+	padding: 0px 50px;
+	bottom: 5px;
+	color:#fff;
+	
+}
+header section .cards{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	margin-top: 10px;
+	display: flex;	
+	align-items: center;
+	overflow-x: auto ;
+}
+header section .cards::-webkit-scrollbar{
+	display: none;
+}
+header section .cards .card{
+	position: relative;
+	min-width: 130px;
+	height: 180px;
+	border-radius: 8px;
+	margin-right: 10px;
+	background: black;
+	transition: .3s linear;
+
+}
+header section .cards .card .poster{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	position: relative;
+
+}
