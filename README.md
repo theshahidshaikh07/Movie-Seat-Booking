@@ -1,1 +1,2 @@
 # Movie-Seat-Booking
+This web-based movie seat booking system lets customers conveniently choose and book seats anytime, anywhere. Features include comprehensive movie information, user-friendly booking interface, seat selection and management tools, and seamless reservation experience. This platform streamlines the booking process, reducing customer wait times and enhancing overall movie theater convenience. (HTML, CSS, JS)
