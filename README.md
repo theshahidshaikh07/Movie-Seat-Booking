@@ -1,2 +1,38 @@
 # Movie-Seat-Booking
-This web-based movie seat booking system lets customers conveniently choose and book seats anytime, anywhere. Features include comprehensive movie information, user-friendly booking interface, seat selection and management tools, and seamless reservation experience. This platform streamlines the booking process, reducing customer wait times and enhancing overall movie theater convenience. (HTML, CSS, JS)
+This movie seat booking system offers a user-friendly interface to select and visualize available seats for a movie show. It demonstrates dynamic seat selection and booking features using HTML, CSS, and JavaScript. Note that the current implementation manages seat availability during the session and resets upon page refresh, making it ideal as a learning project or prototype for booking interfaces.
+# Movie Seat Booking
+
+This is a simple web-based movie seat booking system that allows customers to conveniently choose and book seats anytime, anywhere. 
+
+## Features
+
+- User-friendly booking interface
+- Seat selection and management
+- Responsive design for easy use
+- Seamless reservation experience
+
+This project is built using **HTML**, **CSS**, and **JavaScript**.
+
+---
+
+## Demo Screenshot
+
+Here is a preview of application:
+
+![Login:](Movie-Seat-Booking/img/login.png)
+![Home:](Movie-Seat-Booking/img/homepage.png)
+![Booking:](Movie-Seat-Booking/img/booking.png)
+---
+
+## How to Use
+
+1. Open `home.html` in your web browser.
+2. Select your preferred movie from the dropdown menu.
+3. Click on the available seats to select or deselect them.
+4. View the total price update automatically based on the seat selection.
+5. Refresh the page to reset your selection.
+
+---
+
+## Project Structure
+
