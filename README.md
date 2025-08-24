@@ -22,9 +22,10 @@ Here is a preview of application:
 ---
 
 ## How to Use
-
+```bash
 git clone https://github.com/theshahidshaikh07/Movie-Seat-Booking.git
 cd Movie-Seat-Booking
+```
 
 1. Open `home.html` in your web browser.
 2. Select your preferred movie from the dropdown menu.
