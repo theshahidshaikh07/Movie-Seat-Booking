@@ -23,6 +23,9 @@ Here is a preview of application:
 
 ## How to Use
 
+git clone https://github.com/theshahidshaikh07/Movie-Seat-Booking.git
+cd Movie-Seat-Booking
+
 1. Open `home.html` in your web browser.
 2. Select your preferred movie from the dropdown menu.
 3. Click on the available seats to select or deselect them.
