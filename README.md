@@ -9,9 +9,9 @@ This project is built using **HTML**, **CSS**, and **JavaScript**.
 
 Here is a preview of application:
 
-![Login:](img/login.png)
-![Home:](Movie-Seat-Booking/img/homepage.png)
-![Booking:](Movie-Seat-Booking/img/booking.png)
+![Login:](MOVIE SEAT BOOKING/img/login.png)
+![Home:](MOVIE SEAT BOOKING/img/homepage.png)
+![Booking:](MOVIE SEAT BOOKING/img/booking.png)
 ---
 
 ## How to Use
