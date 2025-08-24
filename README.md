@@ -9,8 +9,14 @@ This project is built using **HTML**, **CSS**, and **JavaScript**.
 
 Here is a preview of application:
 
+
+### 🔐 Login Page
 ![Login](MOVIE%20SEAT%20BOOKING/img/login.png)
+
+### 🏠 Home Page
 ![Home](MOVIE%20SEAT%20BOOKING/img/homepage.png)
+
+### 🎟️ Booking Page
 ![Booking](MOVIE%20SEAT%20BOOKING/img/booking.png)
 
 ---
@@ -25,5 +31,14 @@ Here is a preview of application:
 
 ---
 
-## Project Structure
+## License
+
+This project is open-source and free to use.
+
+---
+
+## Contact
+
+For any questions, feel free to reach out via [email](mailto:theshahidshaikh7@gmail.com).
+
 
